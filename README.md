@@ -9,3 +9,15 @@ Image compression is a critical task in the multimedia domain. With advancements
 The overall framework.
 
 <img src="./assets/scm.png"  style="zoom: 33%;" />
+
+# Training
+
+CUDA_VISIBLE_DEVICES='0' python -u ./train.py -d [path of training dataset]  --cuda --N 128 --lambda 0.0025 --epochs 40 --lr_epoch 35 38 --save_path [path for checkpoint] --save --checkpoint [path of the pretrained checkpoint]
+
+# Testing
+
+python eval.py --checkpoint [path of the pretrained checkpoint] --data [path of testing dataset] --cuda
+
+
+#  Performance Comparison
+
