@@ -32,6 +32,8 @@ git clone https://github.com/InterDigitalInc/CompressAI compressai
 cd compressai
 pip install -U pip && pip install -e .
 
+```
+
 
 # Training
 
