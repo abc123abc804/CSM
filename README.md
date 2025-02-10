@@ -10,6 +10,13 @@ The overall framework.
 
 <img src="./assets/scm.png"  style="zoom: 33%;" />
 
+#  Performance Comparison
+
+<img src="./assets/RD曲线Kodak.png"  style="zoom: 33%;" />
+
+<img src="./assets/sRD曲线CLIC.png"  style="zoom: 33%;" />
+
+
 # Training
 
 CUDA_VISIBLE_DEVICES='0' python -u ./train.py -d [path of training dataset]  --cuda --N 128 --lambda 0.0025 --epochs 40 --lr_epoch 35 38 --save_path [path for checkpoint] --save --checkpoint [path of the pretrained checkpoint]
@@ -19,5 +26,5 @@ CUDA_VISIBLE_DEVICES='0' python -u ./train.py -d [path of training dataset]  --c
 python eval.py --checkpoint [path of the pretrained checkpoint] --data [path of testing dataset] --cuda
 
 
-#  Performance Comparison
+
 
