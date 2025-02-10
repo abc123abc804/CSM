@@ -14,7 +14,23 @@ The overall framework.
 
 <img src="./assets/RD曲线Kodak.png"  style="zoom: 33%;" />
 
-<img src="./assets/sRD曲线CLIC.png"  style="zoom: 33%;" />
+<img src="./assets/RD曲线CLIC.png"  style="zoom: 33%;" />
+
+# Installation
+
+This codebase was tested with the following environment configurations. It may work with other versions.
+
+- Ubuntu 20.04
+- CUDA 12.2
+- Python 3.8
+- PyTorch 2.2.0 + cu121
+
+From [CompressAI](https://github.com/InterDigitalInc/CompressAI):
+
+```
+git clone https://github.com/InterDigitalInc/CompressAI compressai
+cd compressai
+pip install -U pip && pip install -e .
 
 
 # Training
