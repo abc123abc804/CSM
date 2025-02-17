@@ -4,7 +4,7 @@ For training and testing, you can get it from the following ways:
 
 Train Datasets:
 
-DIV2K: https://cv.snu.ac.kr/research/EDSR/DIV2K.tar Flicker: https://cv.snu.ac.kr/research/EDSR/Flickr2K.tar
+imagenet:https://image-net.org/
 
 Test Datasets:
 
