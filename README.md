@@ -44,5 +44,13 @@ CUDA_VISIBLE_DEVICES='0' python -u ./train.py -d [path of training dataset]  --c
 python eval.py --checkpoint [path of the pretrained checkpoint] --data [path of testing dataset] --cuda
 ```
 
-
+# Cite
+```
+@inproceedings{CSM,
+  author = {Huawang Zhang, Jin Wang, Yunhui Shi},
+  title = {An Adaptive Hybrid CNN-SSM Model for Efficient Image Compression},
+  booktitle = {The Visual Computer},
+  year = {2025}
+}
+```
 
