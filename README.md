@@ -49,7 +49,7 @@ python eval.py --checkpoint [path of the pretrained checkpoint] --data [path of 
 @inproceedings{CSM,
   author = {Huawang Zhang, Jin Wang, Yunhui Shi},
   title = {An Adaptive Hybrid CNN-SSM Model for Efficient Image Compression},
-  booktitle = {The Visual Computer},
+  booktitle = {Proceedings on The Visual Computer},
   year = {2025}
 }
 ```
