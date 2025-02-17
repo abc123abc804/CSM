@@ -8,7 +8,7 @@ DIV2K: https://cv.snu.ac.kr/research/EDSR/DIV2K.tar Flicker: https://cv.snu.ac.k
 
 Test Datasets:
 
-Set5 + Set14 + B100 + Urban100 + Manga109: https://drive.google.com/drive/folders/1B3DJGQKB6eNdwuQIhdskA64qUuVKLZ9u
+Kodak: [https://drive.google.com/drive/folders/1B3DJGQKB6eNdwuQIhdskA64qUuVKLZ9u](https://r0k.us/graphics/kodak/)
 
 '''
 
